@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rules to create and use method:
+void-> void is a return tipe and it is a must if you want to return a specific
+   of that data type like for int we write int for String
+   we write String and if we don't want to return anything we write void
+   when we write a void we can't assign a method call to a variable
+   add-> next we write a void

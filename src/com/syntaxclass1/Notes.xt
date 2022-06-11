@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rules to create and use method:
+void-> void is a return tipe and it is a must if you want to return a specific
+   of that data type like for int we write int for String
+   we write String and if we don't want to return anything we write void
+   when we write a void we can't assign a method call to a variable
+   add-> next we write a void
+   +++++++++++++++++++++++++++++++++++++++++
+   Types of variables in java
+   3 types of variables
+   -local
+   -instance
+   -static
+ -  if a variable is inside a method or a part of its parameters
+ or a loop or switch statement
+   or if else condition it is called a local variable;
+-task5-String name; -it is instance
+-instance:
+if a variable is inside the class but outside of any block of code like method loop
+switch statement if else condition it is called an instance variable;
+static variable:
+if an instance variable has a static keyword with it then it is called a static
+variable
+Why learn about different types of variables;
+1)it helps us reduce the amount of RAM that our application will be using
+when it will be running;
+2) with the help of these variables we can pass information
+between methods of class
+3) they occupy the memory for the shortest period of time as soon as your method
+is done executing they are destroyed by a special program called garbage collector;
+
+How to use these
+Local:create inside block of code
+local variables:
+advantages:the occupy the memory for the shortest period of time always try to use local
+variables when possible
+disadvantages: they are very limited in scope means can't access them outside of method
+or that block of code;
+Instance variables:
+Advantages:
+they have broader scope as compared a local variables
+means we can access in all the
+methods of that class
+Disadvantages:
+They occupy the space in your RAM for long period of time
+
+static variables:
+Advantages:
+We can call static variables without creating an object of a class.
