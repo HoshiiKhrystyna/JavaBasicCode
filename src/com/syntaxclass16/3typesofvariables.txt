@@ -1,0 +1,42 @@
+3 types of variables is
+local
+instance
+static
+LOcal-are the variables which are created inside a block of code
+ like method, loop, switch statement, if else condition
+ or constructor
+ Adventages:
+-We should always prefer  local variables to instance or
+static variables
+-live for the shortest period of time inside your RAM
+Disadventages:
+They can't be accssed outside of the block of code
+ in which they are created
+ Class Countries{
+ void USA (){
+ String person"Elisa Bro";
+ }
+ void Ukraine(){
+ System.out.println(person)// we will get an error because right
+ now Person is only accessible in USA method
+ }
+ }
+ Instance variables:
+ they are created inside the class but outside a block of code.
+Adventages:
+-instance variables are accessible everywhere in a class
+in all the block of code inside that class, but not in a static
+method
+Disadvantages:
+-they keep on occupying the memory for longer period of time.
+Static variables:
+if we have a instance variables with a static keyword then it is called
+as static variables
+Advantages:
+the have highest scope aviables even outside of an object
+and are class level variables that's why it does not matter how many
+objects we create from that class only one variables is created
+
+Disadvantages:
+they occupy the memory for longest period of time
+they can hold only the single value for all the objects
